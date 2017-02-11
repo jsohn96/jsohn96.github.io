@@ -1,0 +1,214 @@
+a:link {color:#999999;}
+a:visited {color:#999999;}
+
+a:hover {color:#2a3470;}
+a:active {color:#2a3470;}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	color:#888888;
+}
+
+li {
+	color:#999999;
+}
+
+
+.tabs li {
+	font-size: 24px;
+	font-weight:bold;
+	color:#999999;
+	margin-bottom:5px;
+ }
+
+.tabs .intabs li {
+	font-size: 20px;
+	font-weight:bold;
+	color:#999999;
+	margin-bottom:5px;
+}
+
+li {
+	list-style: none;
+}
+
+.year {
+	font-weight: bold;
+}
+
+#links {
+	text-align: center;
+	margin-left:270px;
+}
+
+#resume {
+	margin-left:350px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+#sidebar {
+	width:350px;
+	top:10px;
+	position:fixed;
+}
+
+#select {
+	color:#2a3470;
+}
+
+#select1 {
+	color:#2a3470;
+}
+
+#select2 {
+	color:#2a3470;
+}
+
+#mainimage {
+	margin-left:280px;
+	margin-right:100px;
+}
+
+#main {
+	max-width:100%;
+	min-width:400px;
+	height:auto;
+	width: auto;
+	margin-top:20px;
+}
+
+#slide {
+	margin-left:290px;
+	margin-top:70px;
+}
+
+#noslide {
+	text-align: center;
+	margin-left: 300px;
+	margin-top: 90px;
+}
+
+.imag {
+	margin-top: 10px;
+}
+
+.break {
+	margin-top:20px;
+}
+
+#refer {
+	text-align: center;
+}
+
+.link {
+	float:left;
+	margin-left:15px;
+}
+
+/* all code below this comment is from adobe widget browser for the slideshow */
+
+#ImageSlideShow {
+	width: 100%;
+	margin: 14px 0px 0px 0px;
+	border: solid 1px transparent;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+}
+
+#ImageSlideShow .ISSName {
+	top: -24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #AAAAAA;
+}
+
+#ImageSlideShow .ISSSlideTitle {
+	top: -18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	overflow: hidden;
+	color: #aaaaaa;
+	text-transform: none;
+}
+
+#ImageSlideShow .ISSClip {
+	height: 500px;
+	margin: 0 10px 10px 10px;
+	border: solid 1px transparent;
+	background-color: transparent;
+}
+
+#ImageSlideShow .ISSControls {
+	top: 11px;
+	height: 500px;;
+
+}
+
+#ImageSlideShow .FilmStrip {
+	height: 80px;
+	width:800px;
+	margin-right: auto;
+	margin-left:auto;
+	background-color: transparent;
+
+}
+
+#ImageSlideShow .FilmStripPreviousButton, #ImageSlideShow .FilmStripNextButton {
+	width: 25px;
+	height: 80px;
+
+
+}
+
+#ImageSlideShow .FilmStripTrack {
+	height: 80px;
+
+
+
+}
+
+#ImageSlideShow .FilmStripContainer {
+	height: 80px;
+
+}
+
+#ImageSlideShow .FilmStripPanel {
+	height: 80px;
+	padding-left: 10px;
+	margin-right: 0px;
+
+}
+
+#ImageSlideShow .FilmStripPanel .ISSSlideLink {
+	margin-top: 5px;
+
+	border: solid 3.5px #AAAAAA;
+	background-color: #FFFFFF;
+}
+
+#ImageSlideShow .FilmStripPanel .ISSSlideLinkRight {
+	border: solid 1px #AAAAAA;
+	width: 56px;
+	height: 47px;
+	margin: 4px 4px 4px 4px;
+}
+
+#ImageSlideShow .FilmStripCurrentPanel .ISSSlideLink {
+	background-color: #FFFFFF;
+	border-color: #033f88;
+}
+
+#ImageSlideShow .FilmStripCurrentPanel .ISSSlideLinkRight {
+	border-color: #AAAAAA;
+}
