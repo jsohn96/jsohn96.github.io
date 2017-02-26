@@ -238,7 +238,7 @@ transition-delay:.2s;
 }
 
 .teamAbout {
-  width:47%;
+  width:45%;
   margin-right: auto;
   margin-left: auto;
   float:left;
@@ -250,8 +250,8 @@ display: inline-block;
 }
 
 .teamAboutInBetween {
-  max-width: 100px;
-  width:6%;
+  max-width: 200px;
+  width:10%;
   height:200px;
     float:left;
 display: inline-block;
