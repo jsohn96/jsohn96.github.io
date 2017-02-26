@@ -77,11 +77,6 @@ footer {
 /*	width:100%;*/
 }
 
-.navigation-tab li {
-  display: inline-block;
-  font-size: 30px;
-  margin: 26px 12px 12px 12px;
-}
 
 #banner-cont {
   width:100%;
@@ -263,9 +258,34 @@ img-responsive-mod {
   height: auto;
 }
 
+.selectedTab {
+  text-decoration: underline;
+}
+
 /*.teamAbout div img {
   max-width: 300px;
 }*/
+.navigation-tab li {
+  display: inline-block;
+  font-size: 24px;
+  margin: 20px 8px 8px 8px;
+}
+
+
+@media (min-width: 768px) {
+  .navigation-tab li {
+  display: inline-block;
+  font-size: 30px;
+  margin: 26px 12px 12px 12px;
+}
+
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
 
 .aboutContentText {
   font-size: 15px;
