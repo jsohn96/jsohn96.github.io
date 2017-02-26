@@ -263,6 +263,10 @@ img-responsive-mod {
   height: auto;
 }
 
+/*.teamAbout div img {
+  max-width: 300px;
+}*/
+
 .aboutContentText {
   font-size: 15px;
 }
