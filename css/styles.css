@@ -7,6 +7,9 @@
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color:#000;
+      opacity: 0.92;
+   filter: alpha(opacity=92); /* For IE8 and earlier */
 }
 
 .side {
@@ -39,6 +42,10 @@ footer {
     text-align: center;
 }
 
+.container{
+  background-color:white;
+}
+
 #archive {
   position:fixed;
   z-index: 1000; 
@@ -65,11 +72,28 @@ footer {
 }
 
 #octo {
-	width:100%;
-
+  max-height: 200px;
+  margin-bottom: 20px;
+/*	width:100%;*/
 }
+
+.navigation-tab li {
+  display: inline-block;
+  font-size: 30px;
+  margin: 26px 12px 12px 12px;
+}
+
+#banner-cont {
+  width:100%;
+  text-align: center;
+}
+
 .contain_header{
 	width:100%;
+}
+
+.page-header{
+  text-align: center;
 }
 
 .row .col-md-4 h3 {
@@ -204,4 +228,45 @@ filter:alpha(opacity=100);
 .hovereffect:hover a.info {
 -webkit-transition-delay:.2s;
 transition-delay:.2s;
+}
+
+.col-md-10-mod {
+  text-align: center;
+  margin-left: 8.33333%;
+  margin-right: 8.33333%;
+  width: 83.33333333%;
+}
+
+.teamAbout {
+  width:47%;
+  margin-right: auto;
+  margin-left: auto;
+  float:left;
+display: inline-block;
+}
+
+.teamAbout img {
+  margin-right:0px;
+}
+
+.teamAboutInBetween {
+  max-width: 100px;
+  width:6%;
+  height:200px;
+    float:left;
+display: inline-block;
+}
+
+img-responsive-mod {
+   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutContentText {
+  font-size: 15px;
+}
+
+.endSpacer {
+  height:70px;
 }

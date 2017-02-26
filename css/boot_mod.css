@@ -1586,8 +1586,8 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -1596,7 +1596,7 @@ pre code {
   }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 720px;
   }
   .delirium {
     height:150px;
@@ -1604,7 +1604,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 950px;
   }
   .delirium {
     height:400px;
@@ -1612,7 +1612,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1100px;
   }
 }
 .container-fluid {
@@ -1635,6 +1635,12 @@ pre code {
     width:50%;
     float:left;
   }
+
+  .col-md-6{
+    width:50%;
+    float:left;
+  }
+
 
   .col-md-3{
     width:33.333333%;
@@ -4666,22 +4672,22 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  /*background-color: #222;*/
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #CCC;
+  /*color: #CCC;*/
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #fff;
+  /*color: #fff;*/
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
-  color: #CCC;
+  /*color: #CCC;*/
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  /*color: #9d9d9d;*/
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
