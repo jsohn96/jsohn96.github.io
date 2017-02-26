@@ -92,11 +92,13 @@ footer {
 }
 
 #octo {
-  max-height: 200px;
+  max-height: 250px;
   margin-bottom: 20px;
 /*	width:100%;*/
 }
-
+.strawdog h2, .strawdog h3 ,.strawdog h4, .strawdog h5 {
+    color: #BBB;
+}
 
 #banner-cont {
   width:100%;
