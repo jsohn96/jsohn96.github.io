@@ -63,6 +63,8 @@ footer {
 
 .container{
   background-color:black;
+  padding-left: 150px;
+  padding-right: 150px;
  /* opacity: 0.80;
    filter: alpha(opacity=80); /* For IE8 and earlier */*/
 }
