@@ -63,8 +63,8 @@ footer {
 
 .container{
   background-color:black;
-  padding-left: 150px;
-  padding-right: 150px;
+    padding-left: 0px;
+  padding-right: 0px;
  /* opacity: 0.80;
    filter: alpha(opacity=80); /* For IE8 and earlier */*/
 }
@@ -303,6 +303,11 @@ img-responsive-mod {
   display: inline-block;
   font-size: 30px;
   margin: 26px 12px 12px 12px;
+}
+
+.container {
+    padding-left: 150px;
+  padding-right: 150px;
 }
 
 }
