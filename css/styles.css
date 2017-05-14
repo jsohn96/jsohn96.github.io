@@ -61,22 +61,6 @@ footer {
     text-align: center;
 }
 
-/* Portrait */
-@media screen and (orientation:portrait) {
-   /* Portrait styles here */
-   .container {
-    padding-left: 10px;
-    padding-right: 10px;
-   }
-}
-/* Landscape */
-@media screen and (orientation:landscape) {
-   /* Landscape styles here */
-   .container {
-    padding-left: 100px;
-    padding-right: 100px;
-   }
-}
 
 .container{
   background-color:black;
