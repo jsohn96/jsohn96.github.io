@@ -73,15 +73,15 @@ footer {
 @media screen and (orientation:landscape) {
    /* Landscape styles here */
    .container {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
    }
 }
 
 .container{
   background-color:black;
-    padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 30px;
+  padding-right: 30px;
  /* opacity: 0.80;
    filter: alpha(opacity=80); /* For IE8 and earlier */*/
 }
