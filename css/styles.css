@@ -326,3 +326,32 @@ img-responsive-mod {
 .endSpacer {
   height:70px;
 }
+
+
+#download {
+  border: 1px white solid; 
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+#download legend {
+  border:none; 
+  margin:auto;
+  width:auto; 
+  color:white; 
+  padding-left: 5px; 
+  padding-right: 5px;
+}
+
+.standardWidth {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.downloadBadge {
+  padding:10px;
+  height:70px;
+  width:auto;
+}
