@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "digital_book.data.unityweb",
+"asmCodeUrl": "digital_book.asm.code.unityweb",
+"asmMemoryUrl": "digital_book.asm.memory.unityweb",
+"asmFrameworkUrl": "digital_book.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}
